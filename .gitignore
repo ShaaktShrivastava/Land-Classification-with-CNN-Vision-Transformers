@@ -1,0 +1,36 @@
+# ── Large model weights ──────────────────────────────────────────────
+*.keras
+*.pth
+*.h5
+*.pt
+
+# ── Dataset (too large for GitHub) ───────────────────────────────────
+images_dataSAT/
+*.tar
+*.zip
+
+# ── Python cache ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ── Jupyter checkpoints ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Virtual environments ──────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ── OS files ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
